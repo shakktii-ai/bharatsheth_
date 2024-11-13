@@ -134,7 +134,7 @@ export default function Home() {
     <div class="flex justify-center mt-6"> */}
     <a href="https://wa.link/92x71l">
         <button class="bg-green-500 text-white font-bold py-2 px-4 rounded-full flex items-center space-x-2">
-            <span>MASSAGE</span>
+            <span>MESSAGE</span>
         </button>
     </a>
 </div>
@@ -435,7 +435,7 @@ export default function Home() {
           <div>
           <a href="https://wa.link/92x71l">
         <button class="bg-green-500 text-white font-bold py-2 px-4 rounded-full flex items-center space-x-2">
-            <span>MASSAGE</span>
+            <span>MESSAGE</span>
         </button>
     </a>
           <button class="bg-green-500 mr-2 mt-2 text-white font-bold py-2 px-4 rounded-full flex items-center space-x-2" onClick={handleButtonWhatsapp}>
