@@ -111,82 +111,82 @@
 //         <link rel="icon" href="/favicon.ico" />
 //       </Head>
       
-//       <div class="p-4 bg-white  max-w-xl mx-auto text-center">
-//     <h1 class="text-lg font-semibold text-blue-800">
+//       <div className="p-4 bg-white  max-w-xl mx-auto text-center">
+//     <h1 className="text-lg font-semibold text-blue-800">
 //         194- महाड - 
 //         पोलदपूर विधानसभा सार्वत्रिक निवडणूक 2024
 //     </h1>
-//     <h2 class="text-2xl font-bold text-red-600 mt-2">
+//     <h2 className="text-2xl font-bold text-red-600 mt-2">
 //         डमी मतदान यंत्र
 //     </h2>
-//     <button class="bg-indigo-800 text-white py-2 px-4 rounded-md text-lg mt-4 shadow-md" onClick={handleButtonClick3} >
+//     <button className="bg-indigo-800 text-white py-2 px-4 rounded-md text-lg mt-4 shadow-md" onClick={handleButtonClick3} >
 //         डेमो मतदानासाठी धनुष्यबाण निशाणी समोरील निळे बटन दाबावे
 //     </button>
-//     <p class="text-md font-medium mt-6">
-//         मतदानाच्या दिवशी सुद्धा <span class="font-bold">धनुष्यबाण</span> या चिन्हासमोरील बटन दाबून <span class="font-bold">भरत मारुती गोगावले</span> यांना प्रचंड मतांनी विजयी करा !
+//     <p className="text-md font-medium mt-6">
+//         मतदानाच्या दिवशी सुद्धा <span className="font-bold">धनुष्यबाण</span> या चिन्हासमोरील बटन दाबून <span className="font-bold">भरत मारुती गोगावले</span> यांना प्रचंड मतांनी विजयी करा !
 //     </p>
-//     <div class="flex justify-center mt-6 ">
-//         <button class="bg-green-500 mr-2 text-white font-bold py-2 px-4 rounded-full flex items-center space-x-2" onClick={handleButtonWhatsapp}>
+//     <div className="flex justify-center mt-6 ">
+//         <button className="bg-green-500 mr-2 text-white font-bold py-2 px-4 rounded-full flex items-center space-x-2" onClick={handleButtonWhatsapp}>
 //         <FaWhatsapp />
 //             <span>SHARE</span>
 //         </button>
 //     {/* </div>
-//     <div class="flex justify-center mt-6"> */}
+//     <div className="flex justify-center mt-6"> */}
 //     <a href="https://wa.link/92x71l">
-//         <button class="bg-green-500 text-white font-bold py-2 px-4 rounded-full flex items-center space-x-2">
+//         <button className="bg-green-500 text-white font-bold py-2 px-4 rounded-full flex items-center space-x-2">
 //             <span>MESSAGE</span>
 //         </button>
 //     </a>
 // </div>
 // </div>
 
-// <div class="bg-yellow-400 text-center py-4 px-6">
-//     <p class="text-black font-bold text-3xl">
+// <div className="bg-yellow-400 text-center py-4 px-6">
+//     <p className="text-black font-bold text-3xl">
 //         “धनुष्यबाण” या चिन्हासमोरील बटन दाबून प्रचंड मतांनी विजयी करा.
 //     </p>
-//     <p class="text-black text-xl mt-2">
+//     <p className="text-black text-xl mt-2">
 //         मतदान दिनांक २० नोव्हेंबर २०२४ स. ०७:०० ते सायं. ०६:००
 //     </p>
 // </div>
 
 
 
-//       <div class="overflow-x-auto">
-//   <table class="table-auto w-full border border-gray-300">
+//       <div className="overflow-x-auto">
+//   <table className="table-auto w-full border border-black">
 //     <thead>
 //       <tr>
-//         <th class="border border-gray-300 p-2 font-semibold">अ.क्र</th>
-//         <th class="border border-gray-300 p-2 font-semibold">उमेदवाराचे नाव</th>
-//         <th class=""></th>
-//         <th class="border border-gray-300 p-2 font-semibold">चिन्ह</th>
-//         <th class="border border-gray-300  font-semibold bg-orange-100">बटन</th>
+//         <th className="border-2 border-black p-2 font-semibold">अ.क्र</th>
+//         <th className="border-2 border-black p-2 font-semibold">उमेदवाराचे नाव</th>
+//         <th className=""></th>
+//         <th className="border-2 border-black p-2 font-semibold">चिन्ह</th>
+//         <th className="border-2 border-black  font-semibold bg-orange-100">बटन</th>
 //       </tr>
 //     </thead>
 //     <tbody>
 //       <tr>
-//         <td class="border border-gray-300  text-center">१.</td>
-//         <td class="border border-gray-300 "></td>
-//         <td class="border border-gray-300 "></td>
-//         <td class="border border-gray-300 text-center">
+//         <td className="border-2 border-black  text-center">१.</td>
+//         <td className="border-2 border-black "></td>
+//         <td className="border-2 border-black "></td>
+//         <td className="border-2 border-black text-center">
 //         </td>
-//         <td class="border border-gray-300  bg-orange-100 text-center  ">
-//         <div class="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
-//           <button class="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg" onClick={handleButtonClick1}></button>
+//         <td className="border-2 border-black  bg-orange-100 text-center  ">
+//         <div className="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
+//           <button className="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg" onClick={handleButtonClick1}></button>
 //         </td>
 //      </tr>
 
 //      <tr>
-//       <td className="border border-gray-300 p-2 text-center text-xl font-bold">२.</td>
-//       <td className="border border-gray-300  text-center text-sm font-bold w-65">
+//       <td className="border-2 border-black p-2 text-center text-xl font-bold">२.</td>
+//       <td className="border-2 border-black  text-center text-sm font-bold w-65">
 //         भरत मारुती गोगावले.
 //       </td>
-//       <td className="border border-gray-300 text-center">
+//       <td className="border-2 border-black text-center">
 //         <img src="/img.jpeg" className="w-16 h-16 object-cover m-auto" />
 //       </td>
-//       <td className="border border-gray-300  text-center">
+//       <td className="border-2 border-black  text-center">
 //         <img src="/logo.jpeg" className="w-16 h-16 object-cover m-auto" />
 //         </td>
-//       <td className="border border-gray-300 p-4 bg-orange-100 text-center flex">
+//       <td className="border-2 border-black p-4 bg-orange-100 text-center flex">
 //         <div
 //           className={`w-8 h-6 rounded-full border border-black inline-block mr-2 ${
 //             isRed ? 'bg-red-500' : ''
@@ -204,201 +204,201 @@
 
 
 //       <tr>
-//         <td class="border border-gray-300  text-center">३.</td>
-//         <td class="border border-gray-300 "></td>
-//         <td class="border border-gray-300 "></td>
-//         <td class="border border-gray-300  text-center">
+//         <td className="border-2 border-black  text-center">३.</td>
+//         <td className="border-2 border-black "></td>
+//         <td className="border-2 border-black "></td>
+//         <td className="border-2 border-black  text-center">
 //         </td>
-//         <td class="border border-gray-300  bg-orange-100 text-center  ">
-//         <div class="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
-//           <button class="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
-//         </td>
-//      </tr>
-//       <tr>
-//         <td class="border border-gray-300  text-center">४.</td>
-//         <td class="border border-gray-300  text-center"></td>
-//         <td class="border border-gray-300 "></td>
-//         <td class="border border-gray-300  text-center">
-//         </td>
-//         <td class="border border-gray-300 bg-orange-100 text-center  ">
-//         <div class="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
-//           <button class="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
+//         <td className="border-2 border-black  bg-orange-100 text-center  ">
+//         <div className="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
+//           <button className="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
 //         </td>
 //      </tr>
 //       <tr>
-//         <td class="border border-gray-300  text-center">५.</td>
-//         <td class="border border-gray-300 "></td>
-//         <td class="border border-gray-300 "></td>
-//         <td class="border border-gray-300  text-center">
+//         <td className="border-2 border-black  text-center">४.</td>
+//         <td className="border-2 border-black  text-center"></td>
+//         <td className="border-2 border-black "></td>
+//         <td className="border-2 border-black  text-center">
 //         </td>
-//         <td class="border border-gray-300  bg-orange-100 text-center  ">
-//         <div class="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
-//           <button class="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
-//         </td>
-//      </tr>
-//       <tr>
-//         <td class="border border-gray-300  text-center">६.</td>
-//         <td class="border border-gray-300 "></td>
-//         <td class="border border-gray-300 "></td>
-//         <td class="border border-gray-300  text-center">
-//         </td>
-//         <td class="border border-gray-300  bg-orange-100 text-center  ">
-//         <div class="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
-//           <button class="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
+//         <td className="border-2 border-black bg-orange-100 text-center  ">
+//         <div className="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
+//           <button className="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
 //         </td>
 //      </tr>
 //       <tr>
-//         <td class="border border-gray-300  text-center">७.</td>
-//         <td class="border border-gray-300 "></td>
-//         <td class="border border-gray-300 "></td>
-//         <td class="border border-gray-300  text-center">
+//         <td className="border-2 border-black  text-center">५.</td>
+//         <td className="border-2 border-black "></td>
+//         <td className="border-2 border-black "></td>
+//         <td className="border-2 border-black  text-center">
 //         </td>
-//         <td class="border border-gray-300  bg-orange-100 text-center  ">
-//         <div class="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
-//           <button class="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
-//         </td>
-//      </tr>
-//       <tr>
-//         <td class="border border-gray-300  text-center">८.</td>
-//         <td class="border border-gray-300 "></td>
-//         <td class="border border-gray-300 "></td>
-//         <td class="border border-gray-300  text-center">
-//         </td>
-//         <td class="border border-gray-300  bg-orange-100 text-center  ">
-//         <div class="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
-//           <button class="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
+//         <td className="border-2 border-black  bg-orange-100 text-center  ">
+//         <div className="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
+//           <button className="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
 //         </td>
 //      </tr>
 //       <tr>
-//         <td class="border border-gray-3 text-center">९.</td>
-//         <td class="border border-gray-3"></td>
-//         <td class="border border-gray-3"></td>
-//         <td class="border border-gray-3 text-center">
+//         <td className="border-2 border-black  text-center">६.</td>
+//         <td className="border-2 border-black "></td>
+//         <td className="border-2 border-black "></td>
+//         <td className="border-2 border-black  text-center">
 //         </td>
-//         <td class="border border-gray-300  bg-orange-100 text-center  ">
-//         <div class="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
-//           <button class="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
-//         </td>
-//      </tr>
-//       <tr>
-//         <td class="border border-gray-300  text-center">१०.</td>
-//         <td class="border border-gray-300 "></td>
-//         <td class="border border-gray-300 "></td>
-//         <td class="border border-gray-300  text-center">
-//         </td>
-//         <td class="border border-gray-300 bg-orange-100 text-center  ">
-//         <div class="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
-//           <button class="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
+//         <td className="border-2 border-black  bg-orange-100 text-center  ">
+//         <div className="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
+//           <button className="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
 //         </td>
 //      </tr>
 //       <tr>
-//         <td class="border border-gray-300  text-center">११.</td>
-//         <td class="border border-gray-300 "></td>
-//         <td class="border border-gray-300 "></td>
-//         <td class="border border-gray-300  text-center">
+//         <td className="border-2 border-black  text-center">७.</td>
+//         <td className="border-2 border-black "></td>
+//         <td className="border-2 border-black "></td>
+//         <td className="border-2 border-black  text-center">
 //         </td>
-//         <td class="border border-gray-300 bg-orange-100 text-center  ">
-//         <div class="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
-//           <button class="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
-//         </td>
-//      </tr>
-//       <tr>
-//         <td class="border border-gray-300  text-center">१२.</td>
-//         <td class="border border-gray-300 "></td>
-//         <td class="border border-gray-300 "></td>
-//         <td class="border border-gray-300  text-center">
-//         </td>
-//         <td class="border border-gray-300  bg-orange-100 text-center  ">
-//         <div class="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
-//           <button class="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
+//         <td className="border-2 border-black  bg-orange-100 text-center  ">
+//         <div className="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
+//           <button className="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
 //         </td>
 //      </tr>
 //       <tr>
-//         <td class="border border-gray-300  text-center">१३.</td>
-//         <td class="border border-gray-300 "></td>
-//         <td class="border border-gray-300 "></td>
-//         <td class="border border-gray-300  text-center">
+//         <td className="border-2 border-black  text-center">८.</td>
+//         <td className="border-2 border-black "></td>
+//         <td className="border-2 border-black "></td>
+//         <td className="border-2 border-black  text-center">
 //         </td>
-//         <td class="border border-gray-300  bg-orange-100 text-center  ">
-//         <div class="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
-//           <button class="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
-//         </td>
-//      </tr>
-//       <tr>
-//         <td class="border border-gray-300  text-center">१४.</td>
-//         <td class="border border-gray-300 "></td>
-//         <td class="border border-gray-300 "></td>
-//         <td class="border border-gray-300  text-center">
-//         </td>
-//         <td class="border border-gray-300  bg-orange-100 text-center  ">
-//         <div class="w-6 h-6 rounded-full border border-black inline-block  mr-2"></div>
-//           <button class="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
+//         <td className="border-2 border-black  bg-orange-100 text-center  ">
+//         <div className="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
+//           <button className="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
 //         </td>
 //      </tr>
 //       <tr>
-//         <td class="border border-gray-300  text-center">१५.</td>
-//         <td class="border border-gray-300 "></td>
-//         <td class="border border-gray-300 "></td>
-//         <td class="border border-gray-300  text-center">
+//         <td className="border-2 border-black text-center">९.</td>
+//         <td className="border-2 border-black"></td>
+//         <td className="border-2 border-black"></td>
+//         <td className="border-2 border-black text-center">
 //         </td>
-//         <td class="border border-gray-300  bg-orange-100 text-center  ">
-//         <div class="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
-//           <button class="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
-//         </td>
-//      </tr>
-//       <tr>
-//         <td class="border border-gra text-center">१६.</td>
-//         <td class="border border-gra"></td>
-//         <td class="border border-gra"></td>
-//         <td class="border border-gra text-center">
-//         </td>
-//         <td class="border border-gra bg-orange-100 text-center  ">
-//         <div class="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
-//           <button class="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
+//         <td className="border-2 border-black  bg-orange-100 text-center  ">
+//         <div className="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
+//           <button className="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
 //         </td>
 //      </tr>
 //       <tr>
-//         <td class="border border-gray-3 text-center">१७.</td>
-//         <td class="border border-gray-3"></td>
-//         <td class="border border-gray-3"></td>
-//         <td class="border border-gray-3 text-center">
+//         <td className="border-2 border-black  text-center">१०.</td>
+//         <td className="border-2 border-black "></td>
+//         <td className="border-2 border-black "></td>
+//         <td className="border-2 border-black  text-center">
 //         </td>
-//         <td class="border border-gray-3 bg-orange-100 text-center  ">
-//         <div class="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
-//           <button class="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
-//         </td>
-//      </tr>
-//       <tr>
-//         <td class="border border-gray-300  text-center">१८.</td>
-//         <td class="border border-gray-300 "></td>
-//         <td class="border border-gray-300 "></td>
-//         <td class="border border-gray-300  text-center">
-//         </td>
-//         <td class="border border-gray-300  bg-orange-100 text-center  ">
-//         <div class="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
-//           <button class="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
+//         <td className="border-2 border-black bg-orange-100 text-center  ">
+//         <div className="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
+//           <button className="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
 //         </td>
 //      </tr>
 //       <tr>
-//         <td class="border border-gray-300  text-center">१९.</td>
-//         <td class="border border-gray-300 "></td>
-//         <td class="border border-gray-300 "></td>
-//         <td class="border border-gray-300  text-center">
+//         <td className="border-2 border-black  text-center">११.</td>
+//         <td className="border-2 border-black "></td>
+//         <td className="border-2 border-black "></td>
+//         <td className="border-2 border-black  text-center">
 //         </td>
-//         <td class="border border-gray-300  bg-orange-100 text-center  ">
-//         <div class="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
-//           <button class="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
+//         <td className="border-2 border-black bg-orange-100 text-center  ">
+//         <div className="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
+//           <button className="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
 //         </td>
 //      </tr>
 //       <tr>
-//         <td class="border border-gray-3 text-center">२०.</td>
-//         <td class="border border-gray-3"></td>
-//         <td class="border border-gray-3"></td>
-//         <td class="border border-gray-3 text-center">
+//         <td className="border-2 border-black  text-center">१२.</td>
+//         <td className="border-2 border-black "></td>
+//         <td className="border-2 border-black "></td>
+//         <td className="border-2 border-black  text-center">
 //         </td>
-//         <td class="border border-gray-3 bg-orange-100 text-center flex ">
-//         <div class="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
-//           <button class="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
+//         <td className="border-2 border-black  bg-orange-100 text-center  ">
+//         <div className="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
+//           <button className="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
+//         </td>
+//      </tr>
+//       <tr>
+//         <td className="border-2 border-black  text-center">१३.</td>
+//         <td className="border-2 border-black "></td>
+//         <td className="border-2 border-black "></td>
+//         <td className="border-2 border-black  text-center">
+//         </td>
+//         <td className="border-2 border-black  bg-orange-100 text-center  ">
+//         <div className="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
+//           <button className="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
+//         </td>
+//      </tr>
+//       <tr>
+//         <td className="border-2 border-black  text-center">१४.</td>
+//         <td className="border-2 border-black "></td>
+//         <td className="border-2 border-black "></td>
+//         <td className="border-2 border-black  text-center">
+//         </td>
+//         <td className="border-2 border-black  bg-orange-100 text-center  ">
+//         <div className="w-6 h-6 rounded-full border border-black inline-block  mr-2"></div>
+//           <button className="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
+//         </td>
+//      </tr>
+//       <tr>
+//         <td className="border-2 border-black  text-center">१५.</td>
+//         <td className="border-2 border-black "></td>
+//         <td className="border-2 border-black "></td>
+//         <td className="border-2 border-black  text-center">
+//         </td>
+//         <td className="border-2 border-black  bg-orange-100 text-center  ">
+//         <div className="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
+//           <button className="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
+//         </td>
+//      </tr>
+//       <tr>
+//         <td className="border-2 border-black text-center">१६.</td>
+//         <td className="border-2 border-black"></td>
+//         <td className="border-2 border-black"></td>
+//         <td className="border-2 border-black text-center">
+//         </td>
+//         <td className="border-2 border-black bg-orange-100 text-center  ">
+//         <div className="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
+//           <button className="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
+//         </td>
+//      </tr>
+//       <tr>
+//         <td className="border-2 border-black text-center">१७.</td>
+//         <td className="border-2 border-black"></td>
+//         <td className="border-2 border-black"></td>
+//         <td className="border-2 border-black text-center">
+//         </td>
+//         <td className="border-2 border-black bg-orange-100 text-center  ">
+//         <div className="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
+//           <button className="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
+//         </td>
+//      </tr>
+//       <tr>
+//         <td className="border-2 border-black  text-center">१८.</td>
+//         <td className="border-2 border-black "></td>
+//         <td className="border-2 border-black "></td>
+//         <td className="border-2 border-black  text-center">
+//         </td>
+//         <td className="border-2 border-black  bg-orange-100 text-center  ">
+//         <div className="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
+//           <button className="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
+//         </td>
+//      </tr>
+//       <tr>
+//         <td className="border-2 border-black  text-center">१९.</td>
+//         <td className="border-2 border-black "></td>
+//         <td className="border-2 border-black "></td>
+//         <td className="border-2 border-black  text-center">
+//         </td>
+//         <td className="border-2 border-black  bg-orange-100 text-center  ">
+//         <div className="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
+//           <button className="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
+//         </td>
+//      </tr>
+//       <tr>
+//         <td className="border-2 border-black text-center">२०.</td>
+//         <td className="border-2 border-black"></td>
+//         <td className="border-2 border-black"></td>
+//         <td className="border-2 border-black text-center">
+//         </td>
+//         <td className="border-2 border-black bg-orange-100 text-center flex ">
+//         <div className="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
+//           <button className="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
 //         </td>
 //      </tr>
       
@@ -428,11 +428,11 @@
 //           </div>
 //           <div>
 //           <a href="https://wa.link/92x71l">
-//         <button class="bg-green-500 text-white font-bold py-2 px-4 rounded-full flex items-center space-x-2">
+//         <button className="bg-green-500 text-white font-bold py-2 px-4 rounded-full flex items-center space-x-2">
 //             <span>MESSAGE</span>
 //         </button>
 //     </a>
-//           <button class="bg-green-500 mr-2 mt-2 text-white font-bold py-2 px-4 rounded-full flex items-center space-x-2" onClick={handleButtonWhatsapp}>
+//           <button className="bg-green-500 mr-2 mt-2 text-white font-bold py-2 px-4 rounded-full flex items-center space-x-2" onClick={handleButtonWhatsapp}>
 //         <FaWhatsapp />
 //             <span>SHARE</span>
 //         </button>
@@ -502,8 +502,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
-        <meta name="description" content="Generated by create next app" />
+        <title>भरत मारुती गोगावले.</title>
+        <meta name="description" content="Generated by Shakktii.ai" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -551,24 +551,24 @@ export default function Home() {
       </div>
 
       <div className="overflow-x-auto">
-        <table className="table-auto w-full border border-gray-300">
+        <table className="table-auto w-full border-2 border-black">
           <thead>
             <tr>
-              <th className="border border-gray-300 p-2 font-semibold">अ.क्र</th>
-              <th className="border border-gray-300 p-2 font-semibold">उमेदवाराचे नाव</th>
+              <th className="border-2 border-black p-2 font-semibold">अ.क्र</th>
+              <th className="border-2 border-r-0 border-black p-2 font-semibold">उमेदवाराचे नाव</th>
               <th className=""></th>
-              <th className="border border-gray-300 p-2 font-semibold">चिन्ह</th>
-              <th className="border border-gray-300 font-semibold bg-orange-100">बटन</th>
+              <th className="border-2 border-black p-2 font-semibold">चिन्ह</th>
+              <th className="border-2 border-black font-semibold bg-orange-100">बटन</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td className="border border-gray-300 text-center">१.</td>
-              <td className="border border-gray-300 "></td>
-              <td className="border border-gray-300 "></td>
-              <td className="border border-gray-300 text-center"></td>
-              <td className="border border-gray-300 bg-orange-100 text-center">
-                <div className="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
+              <td className="border-2 border-black text-center">१.</td>
+              <td className="border-2 border-black "></td>
+              <td className="border-2 border-black "></td>
+              <td className="border-2 border-black text-center"></td>
+              <td className="border-2 border-black bg-orange-100 text-center">
+                <div className="w-6 h-6 rounded-full border-2 border-black inline-block mr-2"></div>
                 <button
                   className="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"
                   onClick={handleButtonClick1}
@@ -577,19 +577,19 @@ export default function Home() {
             </tr>
 
             <tr>
-              <td className="border border-gray-300 p-2 text-center text-xl font-bold">२.</td>
-              <td className="border border-gray-300 text-center text-sm font-bold w-65">
+              <td className="border-2 border-black p-2 text-center text-xl font-bold">२.</td>
+              <td className="border-2 border-black text-center text-sm font-bold w-65">
                 भरत मारुती गोगावले.
               </td>
-              <td className="border border-gray-300 text-center">
-                <img src="/img.jpeg" className="w-16 h-16 object-cover m-auto" />
+              <td className="border-2 border-black text-center w-16">
+                <img src="/img.jpeg" className=" m-auto" />
               </td>
-              <td className="border border-gray-300 text-center">
-                <img src="/logo.jpeg" className="w-16 h-16 object-cover m-auto" />
+              <td className="border-2 border-black text-center w-16">
+                <img src="/logo.jpeg" className=" m-auto" />
               </td>
-              <td className="border border-gray-300 p-4 bg-orange-100 text-center flex">
+              <td className="border-2 border-black p-4 bg-orange-100 text-center flex">
                 <div
-                  className={`w-8 h-6 rounded-full border border-black inline-block mr-2 ${
+                  className={`w-8 h-6 rounded-full border-2 border-black inline-block mr-2 ${
                     isRed ? "bg-red-500" : ""
                   }`}
                 ></div>
@@ -603,201 +603,201 @@ export default function Home() {
             </tr>
             
             <tr>
-         <td class="border border-gray-300  text-center">३.</td>
-         <td class="border border-gray-300 "></td>
-         <td class="border border-gray-300 "></td>
-         <td class="border border-gray-300  text-center">
+         <td className="border-2 border-black  text-center">३.</td>
+         <td className="border-2 border-black "></td>
+         <td className="border-2 border-black "></td>
+         <td className="border-2 border-black  text-center">
          </td>
-         <td class="border border-gray-300  bg-orange-100 text-center  ">
-         <div class="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
-           <button class="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
-         </td>
-      </tr>
-       <tr>
-         <td class="border border-gray-300  text-center">४.</td>
-         <td class="border border-gray-300  text-center"></td>
-         <td class="border border-gray-300 "></td>
-         <td class="border border-gray-300  text-center">
-         </td>
-         <td class="border border-gray-300 bg-orange-100 text-center  ">
-         <div class="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
-           <button class="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
+         <td className="border-2 border-black  bg-orange-100 text-center  ">
+         <div className="w-6 h-6 rounded-full border-2 border-black inline-block mr-2"></div>
+           <button className="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
          </td>
       </tr>
        <tr>
-         <td class="border border-gray-300  text-center">५.</td>
-         <td class="border border-gray-300 "></td>
-         <td class="border border-gray-300 "></td>
-         <td class="border border-gray-300  text-center">
+         <td className="border-2 border-black  text-center">४.</td>
+         <td className="border-2 border-black  text-center"></td>
+         <td className="border-2 border-black "></td>
+         <td className="border-2 border-black  text-center">
          </td>
-         <td class="border border-gray-300  bg-orange-100 text-center  ">
-         <div class="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
-           <button class="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
-         </td>
-      </tr>
-       <tr>
-         <td class="border border-gray-300  text-center">६.</td>
-         <td class="border border-gray-300 "></td>
-         <td class="border border-gray-300 "></td>
-         <td class="border border-gray-300  text-center">
-         </td>
-         <td class="border border-gray-300  bg-orange-100 text-center  ">
-         <div class="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
-           <button class="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
+         <td className="border-2 border-black bg-orange-100 text-center  ">
+         <div className="w-6 h-6 rounded-full border-2 border-black inline-block mr-2"></div>
+           <button className="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
          </td>
       </tr>
        <tr>
-         <td class="border border-gray-300  text-center">७.</td>
-         <td class="border border-gray-300 "></td>
-         <td class="border border-gray-300 "></td>
-         <td class="border border-gray-300  text-center">
+         <td className="border-2 border-black  text-center">५.</td>
+         <td className="border-2 border-black "></td>
+         <td className="border-2 border-black "></td>
+         <td className="border-2 border-black  text-center">
          </td>
-         <td class="border border-gray-300  bg-orange-100 text-center  ">
-         <div class="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
-           <button class="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
-         </td>
-      </tr>
-       <tr>
-         <td class="border border-gray-300  text-center">८.</td>
-         <td class="border border-gray-300 "></td>
-         <td class="border border-gray-300 "></td>
-         <td class="border border-gray-300  text-center">
-         </td>
-         <td class="border border-gray-300  bg-orange-100 text-center  ">
-         <div class="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
-           <button class="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
+         <td className="border-2 border-black  bg-orange-100 text-center  ">
+         <div className="w-6 h-6 rounded-full border-2 border-black inline-block mr-2"></div>
+           <button className="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
          </td>
       </tr>
        <tr>
-         <td class="border border-gray-3 text-center">९.</td>
-         <td class="border border-gray-3"></td>
-         <td class="border border-gray-3"></td>
-         <td class="border border-gray-3 text-center">
+         <td className="border-2 border-black  text-center">६.</td>
+         <td className="border-2 border-black "></td>
+         <td className="border-2 border-black "></td>
+         <td className="border-2 border-black  text-center">
          </td>
-         <td class="border border-gray-300  bg-orange-100 text-center  ">
-         <div class="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
-           <button class="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
-         </td>
-      </tr>
-       <tr>
-         <td class="border border-gray-300  text-center">१०.</td>
-         <td class="border border-gray-300 "></td>
-         <td class="border border-gray-300 "></td>
-         <td class="border border-gray-300  text-center">
-         </td>
-         <td class="border border-gray-300 bg-orange-100 text-center  ">
-         <div class="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
-           <button class="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
+         <td className="border-2 border-black  bg-orange-100 text-center  ">
+         <div className="w-6 h-6 rounded-full border-2 border-black inline-block mr-2"></div>
+           <button className="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
          </td>
       </tr>
        <tr>
-         <td class="border border-gray-300  text-center">११.</td>
-         <td class="border border-gray-300 "></td>
-         <td class="border border-gray-300 "></td>
-         <td class="border border-gray-300  text-center">
+         <td className="border-2 border-black  text-center">७.</td>
+         <td className="border-2 border-black "></td>
+         <td className="border-2 border-black "></td>
+         <td className="border-2 border-black  text-center">
          </td>
-         <td class="border border-gray-300 bg-orange-100 text-center  ">
-         <div class="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
-           <button class="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
-         </td>
-      </tr>
-       <tr>
-         <td class="border border-gray-300  text-center">१२.</td>
-         <td class="border border-gray-300 "></td>
-         <td class="border border-gray-300 "></td>
-         <td class="border border-gray-300  text-center">
-         </td>
-         <td class="border border-gray-300  bg-orange-100 text-center  ">
-         <div class="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
-           <button class="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
+         <td className="border-2 border-black  bg-orange-100 text-center  ">
+         <div className="w-6 h-6 rounded-full border-2 border-black inline-block mr-2"></div>
+           <button className="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
          </td>
       </tr>
        <tr>
-         <td class="border border-gray-300  text-center">१३.</td>
-         <td class="border border-gray-300 "></td>
-         <td class="border border-gray-300 "></td>
-         <td class="border border-gray-300  text-center">
+         <td className="border-2 border-black  text-center">८.</td>
+         <td className="border-2 border-black "></td>
+         <td className="border-2 border-black "></td>
+         <td className="border-2 border-black  text-center">
          </td>
-         <td class="border border-gray-300  bg-orange-100 text-center  ">
-         <div class="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
-           <button class="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
-         </td>
-      </tr>
-       <tr>
-         <td class="border border-gray-300  text-center">१४.</td>
-         <td class="border border-gray-300 "></td>
-         <td class="border border-gray-300 "></td>
-         <td class="border border-gray-300  text-center">
-         </td>
-         <td class="border border-gray-300  bg-orange-100 text-center  ">
-         <div class="w-6 h-6 rounded-full border border-black inline-block  mr-2"></div>
-           <button class="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
+         <td className="border-2 border-black  bg-orange-100 text-center  ">
+         <div className="w-6 h-6 rounded-full border-2 border-black inline-block mr-2"></div>
+           <button className="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
          </td>
       </tr>
        <tr>
-         <td class="border border-gray-300  text-center">१५.</td>
-         <td class="border border-gray-300 "></td>
-         <td class="border border-gray-300 "></td>
-         <td class="border border-gray-300  text-center">
+         <td className="border-2 border-black text-center">९.</td>
+         <td className="border-2 border-black"></td>
+         <td className="border-2 border-black"></td>
+         <td className="border-2 border-black text-center">
          </td>
-         <td class="border border-gray-300  bg-orange-100 text-center  ">
-         <div class="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
-           <button class="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
-         </td>
-      </tr>
-       <tr>
-         <td class="border border-gra text-center">१६.</td>
-         <td class="border border-gra"></td>
-         <td class="border border-gra"></td>
-         <td class="border border-gra text-center">
-         </td>
-         <td class="border border-gra bg-orange-100 text-center  ">
-         <div class="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
-           <button class="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
+         <td className="border-2 border-black  bg-orange-100 text-center  ">
+         <div className="w-6 h-6 rounded-full border-2 border-black inline-block mr-2"></div>
+           <button className="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
          </td>
       </tr>
        <tr>
-         <td class="border border-gray-3 text-center">१७.</td>
-         <td class="border border-gray-3"></td>
-         <td class="border border-gray-3"></td>
-         <td class="border border-gray-3 text-center">
+         <td className="border-2 border-black  text-center">१०.</td>
+         <td className="border-2 border-black "></td>
+         <td className="border-2 border-black "></td>
+         <td className="border-2 border-black  text-center">
          </td>
-         <td class="border border-gray-3 bg-orange-100 text-center  ">
-         <div class="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
-           <button class="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
-         </td>
-      </tr>
-       <tr>
-         <td class="border border-gray-300  text-center">१८.</td>
-         <td class="border border-gray-300 "></td>
-         <td class="border border-gray-300 "></td>
-         <td class="border border-gray-300  text-center">
-         </td>
-         <td class="border border-gray-300  bg-orange-100 text-center  ">
-         <div class="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
-           <button class="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
+         <td className="border-2 border-black bg-orange-100 text-center  ">
+         <div className="w-6 h-6 rounded-full border-2 border-black inline-block mr-2"></div>
+           <button className="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
          </td>
       </tr>
        <tr>
-         <td class="border border-gray-300  text-center">१९.</td>
-         <td class="border border-gray-300 "></td>
-         <td class="border border-gray-300 "></td>
-         <td class="border border-gray-300  text-center">
+         <td className="border-2 border-black  text-center">११.</td>
+         <td className="border-2 border-black "></td>
+         <td className="border-2 border-black "></td>
+         <td className="border-2 border-black  text-center">
          </td>
-         <td class="border border-gray-300  bg-orange-100 text-center  ">
-         <div class="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
-           <button class="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
+         <td className="border-2 border-black bg-orange-100 text-center  ">
+         <div className="w-6 h-6 rounded-full border-2 border-black inline-block mr-2"></div>
+           <button className="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
          </td>
       </tr>
        <tr>
-         <td class="border border-gray-3 text-center">२०.</td>
-         <td class="border border-gray-3"></td>
-         <td class="border border-gray-3"></td>
-         <td class="border border-gray-3 text-center">
+         <td className="border-2 border-black  text-center">१२.</td>
+         <td className="border-2 border-black "></td>
+         <td className="border-2 border-black "></td>
+         <td className="border-2 border-black  text-center">
          </td>
-         <td class="border border-gray-3 bg-orange-100 text-center flex ">
-         <div class="w-6 h-6 rounded-full border border-black inline-block mr-2"></div>
-           <button class="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
+         <td className="border-2 border-black  bg-orange-100 text-center  ">
+         <div className="w-6 h-6 rounded-full border-2 border-black inline-block mr-2"></div>
+           <button className="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
+         </td>
+      </tr>
+       <tr>
+         <td className="border-2 border-black  text-center">१३.</td>
+         <td className="border-2 border-black "></td>
+         <td className="border-2 border-black "></td>
+         <td className="border-2 border-black  text-center">
+         </td>
+         <td className="border-2 border-black  bg-orange-100 text-center  ">
+         <div className="w-6 h-6 rounded-full border-2 border-black inline-block mr-2"></div>
+           <button className="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
+         </td>
+      </tr>
+       <tr>
+         <td className="border-2 border-black  text-center">१४.</td>
+         <td className="border-2 border-black "></td>
+         <td className="border-2 border-black "></td>
+         <td className="border-2 border-black  text-center">
+         </td>
+         <td className="border-2 border-black  bg-orange-100 text-center  ">
+         <div className="w-6 h-6 rounded-full border-2 border-black inline-block  mr-2"></div>
+           <button className="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
+         </td>
+      </tr>
+       <tr>
+         <td className="border-2 border-black  text-center">१५.</td>
+         <td className="border-2 border-black "></td>
+         <td className="border-2 border-black "></td>
+         <td className="border-2 border-black  text-center">
+         </td>
+         <td className="border-2 border-black  bg-orange-100 text-center  ">
+         <div className="w-6 h-6 rounded-full border-2 border-black inline-block mr-2"></div>
+           <button className="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
+         </td>
+      </tr>
+       <tr>
+         <td className="border-2 border-black text-center">१६.</td>
+         <td className="border-2 border-black"></td>
+         <td className="border-2 border-black"></td>
+         <td className="border-2 border-black text-center">
+         </td>
+         <td className="border-2 border-black bg-orange-100 text-center  ">
+         <div className="w-6 h-6 rounded-full border-2 border-black inline-block mr-2"></div>
+           <button className="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
+         </td>
+      </tr>
+       <tr>
+         <td className="border-2 border-black text-center">१७.</td>
+         <td className="border-2 border-black"></td>
+         <td className="border-2 border-black"></td>
+         <td className="border-2 border-black text-center">
+         </td>
+         <td className="border-2 border-black bg-orange-100 text-center  ">
+         <div className="w-6 h-6 rounded-full border-2 border-black inline-block mr-2"></div>
+           <button className="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
+         </td>
+      </tr>
+       <tr>
+         <td className="border-2 border-black  text-center">१८.</td>
+         <td className="border-2 border-black "></td>
+         <td className="border-2 border-black "></td>
+         <td className="border-2 border-black  text-center">
+         </td>
+         <td className="border-2 border-black  bg-orange-100 text-center  ">
+         <div className="w-6 h-6 rounded-full border-2 border-black inline-block mr-2"></div>
+           <button className="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
+         </td>
+      </tr>
+       <tr>
+         <td className="border-2 border-black  text-center">१९.</td>
+         <td className="border-2 border-black "></td>
+         <td className="border-2 border-black "></td>
+         <td className="border-2 border-black  text-center">
+         </td>
+         <td className="border-2 border-black  bg-orange-100 text-center  ">
+         <div className="w-6 h-6 rounded-full border-2 border-black inline-block mr-2"></div>
+           <button className="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
+         </td>
+      </tr>
+       <tr>
+         <td className="border-2 border-black text-center">२०.</td>
+         <td className="border-2 border-black"></td>
+         <td className="border-2 border-black"></td>
+         <td className="border-2 border-black text-center">
+         </td>
+         <td className="border-2 border-black bg-orange-100 text-center  ">
+         <div className="w-6 h-6 rounded-full border-2 border-black inline-block mr-2"></div>
+           <button className="bg-blue-900 text-white rounded-full px-8 py-4 shadow-lg"onClick={handleButtonClick1}></button>
          </td>
       </tr>
 
@@ -805,16 +805,16 @@ export default function Home() {
           </tbody>
         </table>
       </div>
-      <div class="flex justify-between items-center p-4 text-gray-600 text-sm">
-    <span>2024 © <a href="https://pollchit.in" class="text-blue-500 hover:underline">shakktii.ai.com</a></span>
-    <span class="flex items-center">
-        Crafted with <span class="text-red-500 px-1">❤️</span> by 
-        <a href="tel:+918856067217" class="text-blue-500 hover:underline ml-1">+91 8856067217</a>
+      <div className="flex justify-between items-center p-4 text-gray-600 text-sm">
+    <span>2024 © <a href="https://pollchit.in" className="text-blue-500 hover:underline">shakktii.ai.com</a></span>
+    <span className="flex items-center">
+        Crafted with <span className="text-red-500 px-1">❤️</span> by 
+        <a href="tel:+918856067217" className="text-blue-500 hover:underline ml-1">+91 8856067217</a>
     </span>
 </div>
 
       <audio ref={(el) => (audioRefs.current.audio1 = el)} src="/x.mp4" preload="auto"></audio>
-      <audio ref={(el) => (audioRefs.current.audio2 = el)} src="/BHARAT_AUDIO.WAV" preload="auto"></audio>
+      <audio ref={(el) => (audioRefs.current.audio2 = el)} src="/BHARAT_AUDIO.wav" preload="auto"></audio>
       <audio ref={(el) => (audioRefs.current.audio3 = el)} src="/ButtonBeep.WAV" preload="auto"></audio>
       <audio ref={(el) => (audioRefs.current.audio4 = el)} src="/final.wav" preload="auto"></audio>
 
@@ -831,11 +831,11 @@ export default function Home() {
                   </div>
                   <div>
                   <a href="https://wa.link/92x71l">
-                <button class="bg-green-500 text-white font-bold py-2 px-4 rounded-full flex items-center space-x-2">
+                <button className="bg-green-500 text-white font-bold py-2 px-4 rounded-full flex items-center space-x-2">
                     <span>MESSAGE</span>
                 </button>
             </a>
-                  <button class="bg-green-500 mr-2 mt-2 text-white font-bold py-2 px-4 rounded-full flex items-center space-x-2" onClick={handleButtonWhatsapp}>
+                  <button className="bg-green-500 mr-2 mt-2 text-white font-bold py-2 px-4 rounded-full flex items-center space-x-2" onClick={handleButtonWhatsapp}>
                 <FaWhatsapp />
                     <span>SHARE</span>
                 </button>
